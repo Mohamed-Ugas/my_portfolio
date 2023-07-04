@@ -28,7 +28,7 @@ header a {
   justify-content: space-between;
   margin: 10px;
   border-bottom: none;
-  /* don't forget to fix the border-bottom */
+  
 }
 
 .hero-banner {
@@ -66,14 +66,12 @@ header a {
 }
 
 .page-section1 h2 {
+
   display: flex;
   align-items: center;
   padding-left: 600px;
   padding-bottom: 10px;
 }
-
-
-
 
 
 
@@ -182,26 +180,17 @@ header a {
 
   
 
-
-
-
-
+/* I targeted the direct child of .page-section the contact-info class and used flex and space-between */
 .page-section >.contact-info {
   display: flex;
-    justify-content: space-between;
-    width: 93%;
-    padding: 0 2rem
+  justify-content: space-between;
+  width: 93%;
+  padding-right: 20px;
   
 }
 
 
 
-
-
-/* .hero-banner img {
-  max-width: 100%;
-  height: 200px;
-} */
 
 
 
