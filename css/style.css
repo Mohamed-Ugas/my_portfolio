@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header { 
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  max-height: 100px;
+  align-items: center;
+  padding: 30px;
+}
+
+header h1 {
+  background-color: aquamarine;
+}
+
+header a {
+  color: aquamarine;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: none;
+  /* don't forget to fix the border-bottom */
+}
+
+.hero-banner {
+  background-image: url("../images/02-hero-bg.jpg");
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.hero-banner h2 {
+  background-color: aquamarine;
+  margin-bottom: 20px;
+  margin-right: 80px;
+}
+  
+.page-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.page-section h2 {
+  margin-right: 60px;
+  margin-left: 80px;
+}
+
+.page-section1 .picture-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+
+}
+#work h2 {
+  background-color: blueviolet;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin: 80px;
+}
+
+
+
+
+
+
+.page-section1 .firstPicture {
+  background-image: url("../images/02-portfolio-4.jpg");
+  height: 200px;
+  flex-basis: 100%;  
+  background-size: cover;
+  background-position: center;
+}
+
+.page-section1  .secondPicture {
+  background-image: url("../images/02-portfolio-1.jpg");
+  height: 200px;
+  flex-basis: 100%;  
+  background-size: cover;
+  background-position: center;
+}
+
+.page-section1 .thirdPicture {
+  background-image: url("../images/02-portfolio-2.jpg");
+  height: 200px;
+  flex-basis: 100%;  
+  background-size: cover;
+  background-position: center;
+}
+
+.page-section1 .fourthPicture {
+  background-image: url("../images/02-portfolio-3.jpg");
+  height: 200px;
+  flex-basis: 100%;  
+  background-size: cover;
+  background-position: center;
+}
+
+.page-section1 .fifthPicture {
+  background-image: url("../images/02-run-buddy.jpg");
+  height: 200px;
+  flex-basis: 100%;  
+  background-size: cover;
+  background-position: center;
+}
+
+  
+
+
+
+
+
+.page-section >.contact-info {
+  display: flex;
+    justify-content: space-between;
+    width: 93%;
+    padding: 0 2rem
+  
+}
+
+
+
+
+
+/* .hero-banner img {
+  max-width: 100%;
+  height: 200px;
+} */
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
