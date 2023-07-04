@@ -64,12 +64,12 @@ header a {
   margin-bottom: 10px;
 
 }
-#work h2 {
-  background-color: blueviolet;
+
+.page-section1 h2 {
   display: flex;
-  justify-self: center;
   align-items: center;
-  margin: 80px;
+  padding-left: 600px;
+  padding-bottom: 10px;
 }
 
 
@@ -83,6 +83,67 @@ header a {
   flex-basis: 100%;  
   background-size: cover;
   background-position: center;
+}
+
+.picture-row .surf {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-left: 5px;
+  
+}
+
+.picture-row .mern {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.picture-row .led {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 60px;
+  margin-left: 5px;
+}
+
+.picture-row .node {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.picture-row .calculator {
+  font-weight: bold;
+  font-size: large;
+  padding-top: 60px;
+  margin-left: 5px;
+}
+
+.picture-row .react {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.picture-row .pastel {
+  font-weight: bold;
+  font-size: large;
+  padding-top: 60px;
+  margin-left: 5px;
+}
+
+.picture-row .stack {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.picture-row .run {
+  font-weight: bold;
+  font-size: large;
+  padding-top: 60px;
+  margin-left: 5px;
+}
+
+.picture-row .html-css {
+  font-weight: bold;
+  margin-left: 5px;
 }
 
 .page-section1  .secondPicture {
@@ -100,6 +161,8 @@ header a {
   background-size: cover;
   background-position: center;
 }
+
+
 
 .page-section1 .fourthPicture {
   background-image: url("../images/02-portfolio-3.jpg");
